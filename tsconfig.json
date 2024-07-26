@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions" : {
+    "paths" : {
+      "vuex" : ["./node_module/vuex/types/"]
+    },
+    "esModuleInterop" : true,
+    "allowSyntheticDefaultImports" : true
+  }
+  
+}
